@@ -6,14 +6,6 @@ const registerObj = new RegisterPage
 
 describe("Register Test",()=>{
 
-    // var userdata;
-    // before(()=>{
-    //     cy.fixture("registerData").then(data=>{
-    //         userdata = data
-    //     })
-    // })
-
-
     it("First Test",()=>{
         cy.visit(Cypress.env('URL'))
 

@@ -1,0 +1,13 @@
+{
+
+    "login":{
+        "uname": "vipin.dhiman21@gmail.com",
+        "password": "Cypress123!!"
+    },
+    "products" : {
+        "product":"MacBook"
+    },
+    "message":{
+        "successMessage":"Success: You have added"
+    }
+}
