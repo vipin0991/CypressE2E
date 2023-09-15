@@ -17,4 +17,4 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: Mochawesome HTML Report #folder name
-          path: cypress\reports\html
+          path: cypress/reports/html #use / instead of \
