@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "addtocart": "npx cypress run --spec cypress/e2e/tests/addToCart.cy.js",
-    "registertest" : "npx cypress run --spec cypress/e2e/tests/registerTest.cy.js"
+    "registertest": "npx cypress run --spec cypress/e2e/tests/registerTest.cy.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,8 @@
   "dependencies": {
     "cypress": "^13.2.0",
     "cypress-mochawesome-reporter": "^3.6.0"
+  },
+  "devDependencies": {
+    "@cypress/grep": "^4.0.0"
   }
 }

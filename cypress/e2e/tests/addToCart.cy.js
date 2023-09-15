@@ -10,7 +10,7 @@ describe("addtoCart Test",()=>{
         cy.login(testData.login.uname, testData.login.password)
     })
 
-    it("Add to Cart",()=>{
+    it("Add to Cart", ()=>{
         homePageObj.searchProduct(testData.products.product)
         homePageObj.addToCart()
         //Use of assertion in test script

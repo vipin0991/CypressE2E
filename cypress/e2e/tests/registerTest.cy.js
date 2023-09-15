@@ -6,7 +6,7 @@ const registerObj = new RegisterPage
 
 describe("Register Test",()=>{
 
-    it("First Test",()=>{
+    it("First Test", ()=>{
         cy.visit(Cypress.env('URL'))
 
         registerObj.enterFirstName(registerData.firstName)
